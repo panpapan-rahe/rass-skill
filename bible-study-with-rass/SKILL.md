@@ -180,6 +180,8 @@ Before saving:
 | Inventing pericope boundaries from memory | Use LAI/SABDA as authority |
 | Wrong emoji or heading level | Copy exactly from observed notes |
 | Over-expanding into academic speculation | Keep it devotional-academic, scannable |
+| Mixing non-Indonesian characters (CJK, etc.) in content | Write in **clean Indonesian only** — no Mandarin, Japanese, or other foreign scripts. Use Indonesian for all prose. |
+| Showing the note in chat with visible markdown fences or as a separate raw dump | Present the note cleanly in chat using normal markdown, but **do not wrap it in code fences** unless the user explicitly asks for raw text. |
 
 ---
 
