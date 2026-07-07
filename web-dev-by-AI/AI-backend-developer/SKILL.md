@@ -48,6 +48,19 @@ This skill follows a 4-level progression to build robust backend expertise:
 
 Learning path will be defined through the autodidact cron job system, following the level progression above.
 
+## Daily Update System
+A cron job (`Backend Daily Update 22:30`) delivers a short daily update in Indonesian to Discord channel `1523924571491926126` with:
+1. Current level
+2. Today's micro-topic
+3. Key learning / change
+4. Experiment output
+5. Next step
+
+### Backfill / Manual Trigger Rule
+If the user asks to cover a missed day, treat it as a manual trigger and label the update clearly as a backfill for the missing day rather than pretending it happened on the current date.
+
+See `references/backend-reset-protocol.md` for the cleanup sequence and the cronjob/channel history used in this reset.
+
 ## Quick Reference
 
 Coming soon — content will be built through learning sessions.

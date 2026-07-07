@@ -94,12 +94,22 @@ The frontend curriculum is organized into **4 phases**, each lasting ~1 week. Ea
 - **Full cycle**: 4 weeks to go through all phases once
 
 ### Daily Update System
-A cron job (`Frontend Daily Update 10:00`) delivers a short daily update in Indonesian to Discord channel `1523924526549958696` with:
+A cron job (`Frontend Daily Update 22:00`) delivers a short daily update in Indonesian to Discord channel `1523924526549958696` with:
 1. Current phase
 2. Today's micro-topic
 3. Key learning / change
 4. Experiment output
 5. Next step
+
+### Backfill / Manual Trigger Rule
+If the user asks to cover a missed day (e.g. Monday replayed on Tuesday), treat it as a **manual trigger** and label the update clearly as a backfill for the missing day rather than pretending it happened on the current date.
+
+See `references/frontend-reset-protocol.md` for the cleanup sequence and the cronjob/channel history used in this reset.
+
+### Backfill / Manual Trigger Rule
+If the user asks to cover a missed day (e.g. Monday replayed on Tuesday), treat it as a **manual trigger** and label the update clearly as a backfill for the missing day rather than pretending it happened on the current date.
+
+See `references/frontend-reset-protocol.md` for the cleanup sequence and the cronjob/channel history used in this reset.
 
 ### Target Project for Application
 Use the **Cashflow Journal** project (`~/Web-Projects/cash-flow-journal/`) as the main application target. Every learning loop should find a way to apply the new knowledge to this project's frontend templates.
