@@ -10,6 +10,8 @@ Collection of custom Hermes Agent skills maintained by Rahe. These skills are ta
 |-------|----------|-------------|
 | `bible-study-with-rass` | note-taking | Create and maintain Bible study notes in `~/Hermes-Knowledge/inside-bible/` with exact filename conventions, content structure, and workflow. Merges former `bible-note-format`, `bible-study-template`, `inside-bible-format`, `inside-bible-notes`. |
 | `file-management` | productivity | Comprehensive file organization and system navigation for structured file management and efficient system surfing. |
+| `AI-frontend-developer` | web-dev-by-AI | Frontend learning skill built from zero with a weekly 4-phase loop: HTML/CSS/JS fundamentals, UI/UX/a11y/design system, component engineering, and review/performance. |
+| `AI-backend-developer` | web-dev-by-AI | Backend learning skill reset from zero with a 4-level progression: Fundamental, Keamanan & Data, Skalabilitas, and Engineering. |
 
 ---
 
@@ -26,10 +28,12 @@ ln -s /path/to/rass-skill ~/.hermes/skills/rass-skill
 ```
 
 Then in Hermes, load a skill with:
-```
+
+```text
 skill_view(name="bible-study-with-rass")
-# or
 skill_view(name="file-management")
+skill_view(name="AI-frontend-developer")
+skill_view(name="AI-backend-developer")
 ```
 
 ---
@@ -51,7 +55,7 @@ skill_view(name="file-management")
 6. Write file and auto-commit
 
 **Filename Convention:**
-```
+```text
 YYMMDD_Kitab_UrutanPerikop_Pasal_Judul.md
 ```
 
@@ -68,7 +72,6 @@ YYMMDD_Kitab_UrutanPerikop_Pasal_Judul.md
 ## 🔑 Poin Teologis
 ## 🌍 Konteks Historis & Lintas Kitab
 ## 💡 Refleksi & Aplikasi
-## �
 ## 📚 Catatan Tambahan
 ```
 
@@ -81,6 +84,30 @@ General-purpose file organization and navigation skill. Use for:
 - Consistent naming conventions
 - Efficient file search and retrieval
 - System navigation enhancement
+
+---
+
+### AI-frontend-developer
+
+Frontend learning skill reset from zero. It uses a daily loop with weekly phases:
+- **Phase 1 — The Bedrock**: HTML Expert, CSS Expert, JavaScript Expert
+- **Phase 2 — The Designer's Eye**: UI Designer, UX Reviewer, Accessibility Expert, Design System
+- **Phase 3 — The Engineer**: Component Architect, React Expert, API Integration
+- **Phase 4 — The Polisher**: Frontend Reviewer, Performance Expert, Frontend Mentor
+
+**Daily rhythm:** theory → lab → application → audit → next iteration
+
+---
+
+### AI-backend-developer
+
+Backend learning skill reset from zero. It uses a 4-level progression:
+- **Level 1 — Fundamental**: API Architect, Business Logic, Database Architect, Validation
+- **Level 2 — Keamanan & Data**: Authentication, Authorization, Security, File Storage
+- **Level 3 — Skalabilitas**: Queue, Background Worker, Caching, Performance
+- **Level 4 — Engineering**: Testing, Logging, Monitoring, Architecture, DevOps Integration, Backend Reviewer
+
+**Daily rhythm:** one micro-topic, one experiment, one update
 
 ---
 
