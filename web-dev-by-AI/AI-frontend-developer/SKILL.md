@@ -1,5 +1,5 @@
 ---
-name: AI-web-developer
+name: AI-frontend-developer
 description: "AI-driven web development knowledge base — modern stack, best practices, frameworks, responsive design, a11y, performance. Auto-updates via cron job. No restrictions on learning scope."
 version: 1.0.0
 author: Rass (AI-driven autodidact)
